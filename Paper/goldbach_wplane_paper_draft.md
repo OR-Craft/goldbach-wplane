@@ -1,6 +1,6 @@
 # Computational Observations on the Complex-Plane Anatomy of Goldbach Major/Minor Arc Decompositions
 
-**Leonardo Germoni**
+**Leo [surname]**
 
 *Draft — March 2026*
 

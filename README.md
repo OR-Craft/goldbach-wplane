@@ -40,7 +40,7 @@ All computations were performed on a single workstation: Ubuntu, 48GB RAM, 16 th
 Reproducibility
 All computations are deterministic. Output checksums are recorded in the cached JSON files. Cross-validation between FFT and Goertzel methods at overlapping scales agrees to relative error below 10^-7.
 Citation
-If you use this code or data, please cite the preprint via its Zenodo DOI (to be added after upload).
+If you use this code or data, please cite the preprint via its Zenodo DOI (DOI: 10.5281/zenodo.19253853 https://doi.org/10.5281/zenodo.19253853).
 
 Acknowledgements
 

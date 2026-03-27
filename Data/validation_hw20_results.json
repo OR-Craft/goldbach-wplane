@@ -1,0 +1,59 @@
+{
+  "permutation": {
+    "n_shuffles": 10000,
+    "n_exceeded": 0,
+    "p_value": 0.0,
+    "max_shuffled_r": 0.26877838854524877
+  },
+  "bootstrap": {
+    "n_resamples": 10000,
+    "ci_95": [
+      0.607632191129714,
+      0.757671312874967
+    ],
+    "mean": 0.6811471823545889,
+    "std": 0.038891776569489264
+  },
+  "block_bootstrap": {
+    "block_size": 20,
+    "ci_95": [
+      0.6243594111220879,
+      0.7398266517355672
+    ],
+    "mean": 0.6789469580778414
+  },
+  "split_half": {
+    "first_half": 0.6282738629055717,
+    "second_half": 0.7520463317529028,
+    "even_indices": 0.6168347771465347,
+    "odd_indices": 0.7665432461461466
+  },
+  "detrending": {
+    "r_before": 0.6727101676724865,
+    "r_after": 0.6728412776267184,
+    "change": 0.00013110995423193383
+  },
+  "robust_correlations": {
+    "pearson": {
+      "r": 0.6727101676724865,
+      "p": 7.721617335351056e-28
+    },
+    "spearman": {
+      "r": 0.6841436382444215,
+      "p": 4.3485032509923846e-29
+    },
+    "kendall": {
+      "r": 0.5063681592039802,
+      "p": 1.3253350853086207e-26
+    }
+  },
+  "q_max_sensitivity": {
+    "note": "Performed at hw=2 only. std(r) = 0.064 across Q_max 10-50."
+  },
+  "window_sensitivity": {
+    "note": "Performed at hw=2 only. std(r) = 0.015 across \u00b1500 shifts."
+  },
+  "verdict": "ALL TESTS PASSED",
+  "r_observed": 0.6727101676724865,
+  "all_positive": "True"
+}

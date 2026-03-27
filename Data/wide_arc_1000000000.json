@@ -1,0 +1,21 @@
+{
+  "N": 1000000000,
+  "half_widths": [
+    20
+  ],
+  "convergence": {
+    "20": {
+      "r": 0.6727101676724865,
+      "frac": 24.81929692766761,
+      "n_pts": 5248
+    }
+  },
+  "w_plane": {
+    "mean_arg_deg": -43.68936807503237,
+    "std_arg_deg": 0.4685331342326209,
+    "q1_frac": 0.0,
+    "all_positive": true
+  },
+  "time": 2485.8271958827972,
+  "checksum": "ee0dfc73a7aeccdc"
+}

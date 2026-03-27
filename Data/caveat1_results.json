@@ -1,0 +1,48 @@
+{
+  "model_a": {
+    "name": "Fixed fraction + noise",
+    "r_synth_mean": -0.9994182757356448,
+    "r_synth_std": 8.231346962193362e-05,
+    "r_observed": 0.8292961015015744,
+    "p_value": 0.0,
+    "excess": 1.8287143772372192
+  },
+  "model_b": {
+    "name": "Random fraction (uniform)",
+    "r_synth_mean": -0.9991535564602074,
+    "r_synth_std": 0.00015703450353118492,
+    "r_observed": 0.8292961015015744,
+    "p_value": 0.0,
+    "excess": 1.828449657961782
+  },
+  "model_c": {
+    "name": "Shuffled residuals",
+    "r_synth_mean": 0.8297648191878659,
+    "r_synth_std": 0.00748111135506004,
+    "r_observed": 0.8292961015015744,
+    "p_value": 0.4894,
+    "excess": -0.000468717686291531
+  },
+  "model_d": {
+    "name": "Analytical baseline",
+    "mean_fraction": -13.908920200416214,
+    "var_fraction": 18.498967869586213,
+    "cov_fT": 3886419053.455171,
+    "r_constant_f": -1.0
+  },
+  "model_e": {
+    "name": "Shuffled fractions",
+    "r_frac_total": 0.9864016280954678,
+    "p_frac_total": 4.9828166611748705e-158,
+    "frac_autocorr": -0.4725647854624408,
+    "r_synth_mean": -0.9993998333452225,
+    "r_synth_std": 0.00010738219012169367,
+    "p_value": 0.0,
+    "excess": 1.828695934846797
+  },
+  "verdict": "MOSTLY MECHANICAL",
+  "detail": "Observed r is close to synthetic baselines (excess = -0.0005). Most of the correlation is explained by the constraint. Structural component is small if present.",
+  "r_observed": 0.8292961015015744,
+  "excess_over_max_baseline": -0.000468717686291531,
+  "n": 201
+}

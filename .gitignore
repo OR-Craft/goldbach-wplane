@@ -24,6 +24,19 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Compiled output
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
 MANIFEST
 
 # PyInstaller
@@ -50,6 +63,20 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+
+# Cache (data goes to Zenodo, not git)
+goldbach_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
 
 # Translations
 *.mo
